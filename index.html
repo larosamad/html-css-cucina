@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio di Cucina Avanzata</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body id="start">
+    <nav>
+        <h1>Esercizio di Cucina Avanzata</h1>
+        <ul>
+            <li class="menu">
+                <a href="#start">Home</a>
+                <ul class="menu-item">
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#recipes">Ricette</a></li>
+                    <li><a href="#tips">Consigli</a></li>
+                </ul>
+            </li>
+            <li><a href="#gallery">Galleria</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="video">
+            <h2>Guarda i nostri tutorial di cucina</h2>
+                <video width="480"
+                height="270" controls autoplay loop muted>
+                    <source src="./assets/video/video1.mp4" type="video/mp4">
+                    <source src="./assets/video/video1.ogg" type="video/ogg">
+                </video>
+        </section>
+
+        <section class="to-scale" id="recipes">
+            <article>
+                <h2>Ricette popolari</h2>
+                <img src="./assets/img/pasta1.jpg" alt="Pasta" width="300" height="200">
+                <h3>Pasta deliziosa</h3>
+                <p>Scopri come fare la pasta perfetta con pochi semplici passaggi.</p>
+            </article>
+        </section>
+
+        <section id="tips">
+            <article>
+                <h2>Consigli di Cucina</h2>
+                <p>Consigli utili per mantenere la tua cucina organizzata e funzionale.</p>
+            </article>
+        </section>
+
+
+        <section id="gallery">
+            <h2>Galleria di Immagini</h2>
+            <div class="to-flex">
+                <article>
+                    <img src="./assets/img/involtini.jpg" alt="Cibo" width="300" height="200">
+                </article>
+                <article>
+                    <img src="./assets/img/tortasalata.jpg" alt="Cibo" width="300" height="200">
+                </article>
+                <article>
+                    <img src="./assets/img/torta2.jpg" alt="Cibo" width="300" height="200">
+                </article>
+            </div>
+        </section>
+
+        <section id="faq">
+            <h2>FAQ</h2>
+            <article>
+                <h3>Come conservo meglio gli ingredienti?</h3>
+                <p>Conserva gli ingredienti in un luogo fresco e asciutto per mantenere la loro freschezza più a lungo</p>
+            </article>
+            
+            <article>
+                <h3>Quali sono gli utensili essenziali per ogni cuoco?</h3>
+                <p>Ogni cuoco dovrebbe avere un buon set di coltelli, padelle e pentole, e strumenti per la misurazione.</p>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        Seguici sui social per nuove ricette © 2024 Sito di Lezioni di Cucina Avanzata.
+    </footer>
+</body>
+</html>
